@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# Secrets
+openai_key*
+api_key*
+config_ours.sh
+
+# Experiment outputs
+logs/
+*.log
+*.xlsx
+*.jsonl
+!data/**/*.jsonl
+visualization/
+
+# Local models / datasets
+models/
+datasets/
