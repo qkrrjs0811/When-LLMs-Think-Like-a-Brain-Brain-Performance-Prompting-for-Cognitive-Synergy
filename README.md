@@ -1,7 +1,5 @@
 # When LLMs Think Like a Brain: Brain Performance Prompting for Cognitive Synergy
 
-Geon Park, Hongjin Kim, Juoh Sun, Geunyeong Jeong, Harksoo Kim
-
 ## Abstract
 Human cognitive synergy solves complex problems through interactions among different cognitive processes, and recent studies have explored how to reproduce such synergy within LLMs. A representative example is Solo Performance Prompting (SPP), which improves performance through self-collaboration using profession- or identity-based personas. However, SPP cannot adjust persona configuration or granularity according to each task's cognitive demands and complexity, often applying similar configurations to tasks requiring different cognitive functions. In this work, we propose **Brain Performance Prompting (BPP)**, which dynamically constructs brain-region-based personas according to task-specific cognitive demands. Inspired by selective activation in the human brain, BPP organizes granularity-aware self-collaboration using brain-region personas corresponding to cognitive functions. By adjusting persona configuration and granularity for each task, BPP more appropriately allocates cognitive resources for problem solving. Experimental results show that BPP achieves more stable and superior performance than existing methods, including SPP. We further confirm that activated personas vary across task types and granularity levels while aligning with known neural functions.
 
@@ -32,13 +30,7 @@ The paper evaluates BPP on Trivia Creative Writing (N=5, 10), Codenames Collabor
 ## How to Cite
 If you find this code interesting or useful, please consider citing the paper and starring this repo.
 ```bibtex
-@article{park2026bpp,
-  title   = {When LLMs Think Like a Brain: Brain Performance Prompting for Cognitive Synergy},
-  author  = {Park, Geon and Kim, Hongjin and Sun, Juoh and Jeong, Geunyeong and Kim, Harksoo},
-  journal = {Mathematics},
-  year    = {2026},
-  note    = {Submitted}
-}
+
 ```
 
 ## Acknowledgements
